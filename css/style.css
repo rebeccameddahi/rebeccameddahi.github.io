@@ -1,0 +1,65 @@
+h1 {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;  
+	font-size:44px;
+	margin:0;
+	color:steelblue;
+}
+
+h2 {
+    font-family: 'Overpass', cursive!important;
+}
+
+
+p {
+    font-family: 'Overpass', sans-serif!important;
+}
+
+.tl-headline {
+    font-family: 'Overpass', sans-serif!important;
+}
+
+
+.tl-timeline {
+    font-family: 'Overpass', sans-serif!important;
+}
+
+.tl-caption {
+    font-family: 'Overpass', sans-serif!important;
+}
+
+.tl-credit {
+    font-family: 'Overpass', sans-serif!important;
+}
+
+.tl-headline-date {
+    font-family: 'Overpass', sans-serif!important;
+}
+
+.tl-slidenav-description, tl-slidenav-title {
+     font-family: 'Overpass', sans-serif!important;
+}
+
+.tl-slidenav-title {
+     font-family: 'Overpass', sans-serif!important;
+}
+
+#banniere{
+	background-color:white;
+	padding:2%;
+}
+
+.tl-timeaxis-background{
+	background-color:whitesmoke;
+}
+
+.tl-text-content {
+	font-family:"Overpass",sans-serif; 
+	font-size:12px;
+	margin:0;
+	color:dimgrey!important;
+}
+
+.tl-timemarker-media-container {
+    display: none;
+}
+
