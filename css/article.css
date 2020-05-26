@@ -1,0 +1,119 @@
+body {
+  padding-top: 10px;
+}
+
+a { 
+    color : #484848;
+    font-weight: 600; /** régler ça en plus du .titre2 pour que ça soit identique, voir ligne 92 **/ 
+    font-size: 13px; /** régler ça en plus du .titre2 pour que ça soit identique **/ 
+}
+
+p {
+    color: #484848; 
+    font-size: 11pt;   
+}
+
+a:hover {
+color: #da3018;
+}
+
+.bodyarticle {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 400px;
+}
+
+.chapo {
+    font-size: 16px;
+    font-weight: 620;
+    margin-bottom: -10px;
+    margin-top: 8px;
+}
+
+.legende {
+    font-size: 10pt;
+}
+.categorie {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;    
+}
+
+#interview {
+    font-weight: 700;
+}
+
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 650;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: 650;
+    margin-top: 16px;
+    padding-top: 1px;
+}
+
+img {
+    max-width: 440px;
+}
+
+.imglib {
+    max-height: 300px;
+}
+
+.imgpt {
+    max-height: 80px;
+}
+
+
+.date {
+    color: #484848;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.titre2 {
+
+    margin-right: 6px;
+    padding-top: 2px; /* réglage de la marge (du blanc) au-dessus du titre de l'article ici */
+    padding-bottom: 2px; /* réglage de la marge (du blanc) en-dessous du titre de l'article ici */
+    padding-right: 2px;
+    padding-left: 4px;
+
+}
+
+[class*="col-"], footer {
+  /** border: 2px solid WHITE ; #18181a
+  /**border-radius: 6px; **/ 
+  line-height: 20px; /* réglage de l'interligne ici */
+  text-align: left; /** met titres de catégories et titres d'articles alignés à gauche**/
+}
+
+.container {
+  padding-right: 2px;
+  padding-left: 2px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+

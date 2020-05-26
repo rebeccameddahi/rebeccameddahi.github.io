@@ -1,0 +1,13 @@
+.imgprevisu {
+    position:fixed;
+    top:10px;
+    right:10px;
+    bottom:10px;
+}
+
+.imgprevisucol1 {
+    position:fixed;
+    top:20px;
+    right: 580px;
+    bottom:10px;
+}
